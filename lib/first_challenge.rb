@@ -18,7 +18,7 @@ def first_challenge
   contacts.each do |name,person_info|
     person_info.each do |tag,data|
       if name == "Freddy Mercury" and tag == :favorite_icecream_flavors
-        tag.delete_if { |ice_cream| ice_cream = "strawberry" }
+        tag.delete("strawberry")
         binding.pry
       end
     end

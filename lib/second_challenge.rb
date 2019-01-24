@@ -9,8 +9,8 @@ def second_challenge
   }
 
   #code your solution here!
-  puts groceries.values
-  binding.pry
+  return groceries.values
+  
   
 
 end

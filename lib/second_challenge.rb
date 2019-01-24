@@ -9,8 +9,8 @@ def second_challenge
   }
 
   #code your solution here!
-  return groceries.values
-  
+  grocery_list = groceries.values
+  binding.pry
   
 
 end

@@ -20,6 +20,7 @@ def first_challenge
       if name == "Freddy Mercury" and tag == :favorite_icecream_flavors
         tag.delete_if("strawberry")
         binding.pry
+      end
     end
   end
 

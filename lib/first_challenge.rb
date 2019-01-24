@@ -19,7 +19,6 @@ def first_challenge
     person_info.each do |tag,data|
       if name == "Freddy Mercury" and tag == :favorite_icecream_flavors
         data.delete("strawberry")
-        binding.pry
       end
     end
   end

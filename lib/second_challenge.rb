@@ -9,9 +9,9 @@ def second_challenge
   }
 
   #code your solution here!
-  grocery_list = []
-  grocery_list = groceries.values
-  binding.pry
+  
+  groceries.values.flatten
+  
   
 
 end
